@@ -8,10 +8,42 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>My app</title>\n</head>\n<body>\nThis is my app\n</body>\n</html>",
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>My app</title>\n</head>\n<body>\nThis is my app!!\n</body>\n</html>",
 			"settings":
 			{
-				"buffer_size": 98,
+				"buffer_size": 100,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 21,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "log.txt\n/dir2",
+			"file": ".gitignore",
+			"file_size": 14,
+			"file_write_time": 133265621792626393,
+			"settings":
+			{
+				"buffer_size": 13,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "log.txt",
+			"file_size": 0,
+			"file_write_time": 133265617228982054,
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -82,7 +114,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -90,15 +122,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 98,
+						"buffer_size": 100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								84,
+								84
 							]
 						],
 						"settings":
@@ -110,7 +142,91 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "log.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
